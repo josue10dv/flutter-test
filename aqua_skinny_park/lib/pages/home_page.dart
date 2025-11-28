@@ -35,6 +35,12 @@ class HomePage extends StatelessWidget {
               onPressed: () => context.go('/slide'),
               child: const Text('Plan de toboganes'),
             ),
+            const SizedBox(height: 12),
+
+            ElevatedButton(
+              onPressed: () => context.go('/slide'),
+              child: const Text('Gastos'),
+            ),
           ],
         ),
       ),
